@@ -1,7 +1,7 @@
 {
     "name": "faustbrian/gitio-php-client",
     "description": "A GitIO Client for PHP",
-    "keywords": ["api", "faustbrian", "faustbrian-git-io", "git-io", "Brian Faust", "faustbrian"],
+    "keywords": ["api", "git.io", "Brian Faust", "faustbrian"],
     "license": "MIT",
     "authors": [{
         "name": "Brian Faust",
