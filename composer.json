@@ -1,13 +1,19 @@
 {
-    "name": "faustbrian/gitio-php-client",
+    "name": "plients/gitio",
     "description": "A Git.io Client for PHP",
-    "keywords": ["api", "http", "git.io"],
+    "keywords": [
+        "api",
+        "http",
+        "git.io"
+    ],
     "license": "MIT",
-    "authors": [{
-        "name": "Brian Faust",
-        "email": "hello@brianfaust.me",
-        "homepage": "https://brianfaust.me"
-    }],
+    "authors": [
+        {
+            "name": "Brian Faust",
+            "email": "hello@basecode.sh",
+            "homepage": "https://basecode.sh"
+        }
+    ],
     "require": {
         "php": "^7.1",
         "faustbrian/http": "^1.0"
@@ -18,12 +24,12 @@
     },
     "autoload": {
         "psr-4": {
-            "BrianFaust\\Gitio\\": "src"
+            "Plients\\Gitio\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "BrianFaust\\Tests\\Gitio\\": "tests"
+            "Plients\\Tests\\Gitio\\": "tests"
         }
     },
     "config": {
